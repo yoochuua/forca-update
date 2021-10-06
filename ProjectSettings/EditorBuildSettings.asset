@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/lab1.unity
+    guid: 37291b9198d6c2248a7309cd2472bc3b
+  - enabled: 1
+    path: Assets/Scenes/lab1_salvo.unity
+    guid: c74c40a39c1189b40bc0254e979bb5c2
+  - enabled: 1
+    path: Assets/Scenes/lab1_forca.unity
+    guid: fb9ddb2b716c8f447bf3648d11706539
+  - enabled: 1
+    path: Assets/Scenes/lab1_start.unity
+    guid: db2c6d041644f924bae4d4cb250e9207
+  m_configObjects: {}
