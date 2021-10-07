@@ -128,3 +128,13 @@ C# parse time         : 181ms
 candidates check time : 26ms
 console write time    : 0ms
 
+[api-updater (non-obsolete-error-filter)] 06/10/2021 23:28:02 : Starting C:/Users/vmfs2/Projetos/2020.3.19f1/Editor/Data/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 2380,9917ms
+moved types parse time: 76ms
+candidates parse time : 1ms
+C# parse time         : 805ms
+candidates check time : 45ms
+console write time    : 1ms
+

@@ -21,6 +21,8 @@ public class GameManager : MonoBehaviour
     bool[] letrasDescobertas; // indicador de quais letras foram descobertas
 
     // Start is called before the first frame update
+
+
     void Start()
     {
         centro =  GameObject.Find("centroDaTela");
@@ -115,6 +117,7 @@ public class GameManager : MonoBehaviour
         //Se sim, Carrega a Cena que indica que o jogador ganhou o jogo
         if(condicao)
         {
+            
             PlayerPrefs.SetString("ultimaPalavraOculta", palavraOculta);
             SceneManager.LoadScene("lab1_salvo");
         }
@@ -124,7 +127,7 @@ public class GameManager : MonoBehaviour
         TextAsset t1 = (TextAsset)Resources.Load("palavras", typeof(TextAsset)); //Lê o arquivo em uma variável tipo TextAsset
         string s = t1.text; //Coloca todo o conteúdo em formato de texto em uma string
         string[] palavras = s.Split(' '); //Quebra a string em outras menores a partir do espaço
-        int palavraAleatoria = Random.Range(0, palavras.Length + 1); // Escolhe uma das palavras aleatóriamente
+        int palavraAleatoria = Random.Range(0, palavras.Length-1); // Escolhe uma das palavras aleatóriamente
         return (palavras[palavraAleatoria]); 
     }
 }
